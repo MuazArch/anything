@@ -1,0 +1,66 @@
+/* Basic hover effect */
+.element:hover {
+    background-color: #f0f0f0;
+    color: #000000;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.color-pop:hover {
+    background-color: #ff6b6b;
+    color: white;
+    transition: all 0.3s ease;
+    transform: scale(1.10);
+    box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);
+    cursor: pointer;
+}
+
+.button-cool1:hover {
+    background-color: #4CAF50 !important;
+    color: white;
+    transition: all 0.3s ease;
+    transform: rotate(5deg);
+    transform: scale(1.1);
+    box-shadow: 0 5px 20px rgba(76, 175, 80, 0.5);
+}
+
+.button-cool2:hover {
+    background-color: #2196F3 !important;
+    color: white;
+    transition: all 0.3s ease;
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(33, 150, 243, 0.5);
+}
+
+.button-cool3:hover {
+    background-color: #FF9800;
+    color: white;
+    transition: all 0.3s ease;
+    transform: skew(10deg);
+    box-shadow: 0 5px 20px rgba(255, 152, 0, 0.5);
+}
+
+.button-cool4:hover {
+    background-color: #9C27B0;
+    color: white;
+    transition: all 0.3s ease;
+    transform: scale(1.50) rotate(-4deg);
+    box-shadow: 0 5px 25px rgba(156, 39, 176, 0.5);
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: coolvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    background-image: url("backgroundimage.jpg");
+    font-family: coolvetica, sans-serif;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
